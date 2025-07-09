@@ -45,6 +45,8 @@
     background-image: url(/images/developer.png), url('/images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 /* Nav Styles */
@@ -53,6 +55,8 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 150px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 .nav-title{
     font-weight: 800;
@@ -75,6 +79,8 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 38px 0 150px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 .banner-content{
     max-width: 584px;
@@ -95,8 +101,24 @@
     color: #757575;
     margin: 20px 0 30px 0;
 }
+.contact{
+    background-color: transparent;
+    color: #FD6E0A;
+    outline: 1px solid #FD6E0A;
+    margin-left: 20px;
+    transition: 0.2s;
+}
+.contact:hover{
+    background-color: #FD6E0A;
+    color: white;
+    outline: none;
+}
+.contact i{
+    margin-right: 10px;
+}
 .banner-profile{
     width: 584px;
+    margin-right: -150px;
 }
 
 /* Main Styles */
@@ -186,4 +208,32 @@ main{
 .resume-btn{
     text-align: center;
     margin-top: 50px;
+}
+
+/* Footer Styles */
+
+footer{
+    display: flex;
+    padding: 0 160px;
+    gap: 110px;
+    margin: 0 auto;
+    max-width: 1140px;
+    text-align: left;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    display: block;
+    height: 64px;
+    color: #757575;
+    width: 100%;
+    border-radius: 5px;
+    padding: 18px 30px;
+    border: none;
+    margin-bottom: 24px;
+}
+.icon a{
+    margin-right: 10px;
+    height: 24px;
 }
