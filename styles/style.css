@@ -128,3 +128,31 @@ main{
     margin-top: 0;
     color: #474747;
 }
+
+/* Skills Styles */
+
+.skills{
+    text-align: center;
+    margin-top: 130px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    text-align: left;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 6px 6px 30px 0px #000000;
+    border-radius: 5px;
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+}
+.skill-description{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
