@@ -42,7 +42,7 @@
 /* Header Styles */
 
 .header{
-    background-image: url(/images/developer.png), url('/images/header_bg.png');
+    background-image: url('/images/developer.png'), url('/images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     max-width: 1600px;
@@ -212,7 +212,7 @@ main{
 
 /* Footer Styles */
 
-footer{
+.footer{
     display: flex;
     padding: 0 160px;
     gap: 110px;
@@ -223,7 +223,7 @@ footer{
 .footer-column{
     width: 50%;
 }
-footer input[type="text"], footer input[type="email"], footer textarea{
+.footer input[type="text"], .footer input[type="email"], .footer textarea{
     display: block;
     height: 64px;
     color: #757575;
